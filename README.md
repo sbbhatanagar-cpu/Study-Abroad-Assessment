@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Fashion Store - Admin Dashboard
+A high-performance, responsive Admin Dashboard built with **Next.js 15**, **Material UI (MUI) v6**, and **Zustand**. This project integrates the DummyJSON API for real-time authentication, user management, and product cataloging.
 
-## Getting Started
+## 🔗 Live Repository
+**GitHub Link**: [https://github.com/sbbhatanagar-cpu](https://github.com/sbbhatanagar-cpu)
 
-First, run the development server:
+## 🚀 Tech Stack
+- **Framework**: Next.js 15 (App Router)
+- **UI Library**: Material UI (MUI) v6
+- **State Management**: Zustand (with Async Actions)
+- **API**: [DummyJSON](https://dummyjson.com/)
+- **Theme**: Premium Dark UI (Dark & Electric Blue)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧠 Why Zustand?
+For this project, **Zustand** was chosen because:
+1. **Simplicity**: Extremely minimal boilerplate compared to Redux.
+2. **Small Footprint**: Keeps the application lightweight and fast.
+3. **Async Logic**: Built-in support for async actions makes API integration seamless.
+4. **Better for Medium Apps**: Provides a cleaner state management flow without the complexity of Redux Toolkit.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚡ Performance Optimizations & Caching
+- **Server-Side Pagination**: Used `limit` and `skip` API parameters to handle data efficiently.
+- **Client-Side Caching**: API results are cached in the Zustand store. Navigating back from a "Details" page does not trigger a re-fetch, saving bandwidth.
+- **Debounced Search**: Implemented a delay on search inputs to prevent excessive API calls.
+- **MUI v6 Optimization**: Used the latest `Grid` system (`size` prop) for a clean, warning-free responsive layout.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/sbbhatanagar-cpu.git](https://github.com/sbbhatanagar-cpu.git)
+   cd [ADMIN-DASHBOARD]

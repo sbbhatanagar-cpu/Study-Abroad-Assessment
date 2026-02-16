@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  devIndicators: {
+    appIsrStatus: false, // Isse wo 'N' indicator band ho jayega
+  },
 };
 
 export default nextConfig;
